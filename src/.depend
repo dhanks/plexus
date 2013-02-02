@@ -1,0 +1,14 @@
+client.o: client.c include/main.h include/vplayer.h \
+  include/client_talker.h include/protocol.h include/proto.h
+comm.o: comm.c include/main.h include/vplayer.h include/client_talker.h \
+  include/protocol.h include/proto.h
+log.o: log.c include/main.h include/vplayer.h include/client_talker.h \
+  include/protocol.h include/proto.h
+main.o: main.c include/main.h include/vplayer.h include/client_talker.h \
+  include/protocol.h include/proto.h
+net.o: net.c include/main.h include/vplayer.h include/client_talker.h \
+  include/protocol.h include/proto.h
+time.o: time.c include/main.h include/vplayer.h include/client_talker.h \
+  include/protocol.h include/proto.h
+vplayer.o: vplayer.c include/main.h include/vplayer.h \
+  include/client_talker.h include/protocol.h include/proto.h
